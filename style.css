@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+form {
+  width: 300px;
+  margin: 40px auto;
+}
+fieldset {
+  padding: 40px 20px 30px 20px;
+}
+.email_input {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 20px;
+}
+.pass_input {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  height: 20px;
+}
+.btn_submit {
+  display: block;
+  padding: 5px 10px;
+  margin: 30px auto;
+  border: 1px solid black;
+  box-shadow: 4px 4px black;
+}
+.confirm {
+  display: none;
+  margin: 0 auto;
+  padding: 20px;
+  width: 400px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+}
+.btns_block {
+  display: flex;
+  justify-content: end;
+  margin-top: 50px;
+}
+.btn_cancel {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid black;
+  box-shadow: 4px 4px black;
+}
+.btn_confirm {
+  display: block;
+  padding: 5px 10px;
+  margin-left: 20px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  box-shadow: 4px 4px black;
+}
+.final_text {
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
